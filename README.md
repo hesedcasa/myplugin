@@ -19,7 +19,7 @@ $ npm install -g myplugin
 $ my COMMAND
 running command...
 $ my (--version)
-myplugin/0.0.0 linux-x64 node-v20.20.2
+myplugin/0.1.0 linux-x64 node-v20.20.2
 $ my --help [COMMAND]
 USAGE
   $ my COMMAND
@@ -108,7 +108,7 @@ EXAMPLES
   hello friend from oclif! (./src/commands/hello/index.ts)
 ```
 
-_See code: [src/commands/hello/index.ts](https://github.com/hesedcasa/myplugin/blob/v0.0.0/src/commands/hello/index.ts)_
+_See code: [src/commands/hello/index.ts](https://github.com/hesedcasa/myplugin/blob/v0.1.0/src/commands/hello/index.ts)_
 
 ## `my hello world`
 
@@ -126,5 +126,5 @@ EXAMPLES
   hello world! (./src/commands/hello/world.ts)
 ```
 
-_See code: [src/commands/hello/world.ts](https://github.com/hesedcasa/myplugin/blob/v0.0.0/src/commands/hello/world.ts)_
+_See code: [src/commands/hello/world.ts](https://github.com/hesedcasa/myplugin/blob/v0.1.0/src/commands/hello/world.ts)_
 <!-- commandsstop -->
