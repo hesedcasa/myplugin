@@ -19,7 +19,7 @@ $ npm install -g myplugin
 $ my COMMAND
 running command...
 $ my (--version)
-myplugin/0.0.0 darwin-arm64 node-v22.14.0
+myplugin/0.0.0 linux-x64 node-v20.20.2
 $ my --help [COMMAND]
 USAGE
   $ my COMMAND
@@ -39,13 +39,13 @@ Add authentication
 
 ```
 USAGE
-  $ my auth add [--json] [-e <value>] [-p <value>] [-t <value>] [-u <value>]
+  $ my auth add -t <value> -u <value> [--json] [-e <value>] [-p <value>]
 
 FLAGS
   -e, --email=<value>    Account email
   -p, --profile=<value>  Profile name
-  -t, --token=<value>    API Token
-  -u, --url=<value>      API endpoint URL (start with https://)
+  -t, --token=<value>    (required) API Token
+  -u, --url=<value>      (required) API endpoint URL (start with https://)
 
 GLOBAL FLAGS
   --json  Format output as json.
