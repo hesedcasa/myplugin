@@ -15,11 +15,11 @@ A new CLI generated with oclif
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g myplugin
+$ npm install -g @hesed/myplugin
 $ my COMMAND
 running command...
 $ my (--version)
-myplugin/0.1.0 linux-x64 node-v20.20.2
+@hesed/myplugin/0.1.0 darwin-arm64 node-v22.14.0
 $ my --help [COMMAND]
 USAGE
   $ my COMMAND
@@ -39,13 +39,13 @@ Add authentication
 
 ```
 USAGE
-  $ my auth add -t <value> -u <value> [--json] [-e <value>] [-p <value>]
+  $ my auth add [--json] [-e <value>] [-p <value>] [-t <value>] [-u <value>]
 
 FLAGS
   -e, --email=<value>    Account email
   -p, --profile=<value>  Profile name
-  -t, --token=<value>    (required) API Token
-  -u, --url=<value>      (required) API endpoint URL (start with https://)
+  -t, --token=<value>    API Token
+  -u, --url=<value>      API endpoint URL (start with https://)
 
 GLOBAL FLAGS
   --json  Format output as json.

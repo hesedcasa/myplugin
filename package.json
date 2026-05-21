@@ -1,5 +1,5 @@
 {
-  "name": "myplugin",
+  "name": "@hesed/myplugin",
   "description": "A new CLI generated with oclif",
   "version": "0.1.0",
   "author": "Allen Tuh",
